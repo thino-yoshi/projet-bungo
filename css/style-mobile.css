@@ -1,0 +1,138 @@
+.container {
+  margin: 0;
+}
+
+header {
+  flex-direction: column;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  height: 30%;
+}
+
+header h2 a {
+  padding: 0;
+}
+
+header ul {
+  flex-direction: column;
+  padding: 0;
+}
+
+header ul li {
+  border-bottom: 1px solid white;
+  width: 300px;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+/*    image-haut*/
+.image-haut {
+  background-size: cover;
+  height: calc(100vh - 290px);
+}
+
+/* detective */
+.detective p {
+  background: black;
+  height: 100px;
+}
+
+.detective a img {
+  max-width: 100px;
+  min-width: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/*    mafia     */
+.mafia p {
+  background: black;
+  height: 50px;
+}
+
+.mafia a img {
+  max-width: 100px;
+  min-width: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/*  guilde      */
+.guilde p {
+  background: black;
+  height: 50px;
+}
+
+.guilde a img {
+  max-width: 100px;
+  min-width: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/*    photo info    */
+.photoinfo {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.photoinfo img {
+  height: 300px;
+  width: 300px;
+}
+
+.photoinfo div {
+  width: 100%;
+  padding: 10px;
+}
+
+.photoinfo div p {
+  text-align: center;
+}
+
+/*     ajout    */
+.ajout-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ajout-content img:nth-child(1) {
+  height: 250px;
+  width: 250px;
+  background-color: #eee;
+  border: 10px solid black;
+  margin-bottom: 2rem;
+}
+
+.ajout-content div {
+  width: 300px;
+  text-align: center;
+  padding: 0.4rem;
+}
+
+.button {
+  margin-top: 2rem;
+}
+
+/*     footer     */
+footer button {
+  color: #ff8f12;
+  background: #444;
+  height: 50px;
+}
+
+.title-mention {
+  padding: 0 0 5rem 0;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style-mobile.css.map */
