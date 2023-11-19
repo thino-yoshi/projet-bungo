@@ -1,0 +1,22 @@
+@keyframes move-eye {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: translateX(-5px) translateY(5px) skewX(15deg) skewY(-10deg)
+      scale(0.95);
+  }
+  25%,
+  44% {
+    transform: none;
+  }
+  50%,
+  60% {
+    transform: translateX(5px) translateY(-5px) skewX(5deg) skewY(2deg)
+      scaleX(0.95);
+  }
+  66%,
+  100% {
+    transform: none;
+  }
+}
