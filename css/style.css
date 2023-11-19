@@ -309,6 +309,10 @@ header ul li :hover {
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
+.funnypic .nop-funny {
+  color: white;
+  font-size: 5rem;
+}
 
 .funnypic img {
   width: 400px;
