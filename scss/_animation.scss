@@ -20,3 +20,12 @@
     transform: none;
   }
 }
+
+@keyframes dazaifunny {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: translateX(-65%);
+  }
+}

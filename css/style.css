@@ -15,6 +15,14 @@
     transform: none;
   }
 }
+@keyframes dazaifunny {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: translateX(-65%);
+  }
+}
 /*         classe       */
 * {
   margin: 0;
@@ -112,13 +120,20 @@ header ul li :hover {
 
 /*    image-haut    */
 .image-haut {
-  flex: auto;
-  display: flex;
-  flex-direction: column wrap;
-  justify-content: center;
-  align-items: center;
-  background: url(/images/image-haut.jpg) center center;
+  display: block;
+  background: url(/images/image-haut.jpg);
+  background-size: cover;
   height: 91vh;
+}
+
+.dazaifun {
+  position: fixed;
+  top: 40%;
+  left: 93%;
+}
+
+.dazaifun:hover {
+  animation: dazaifunny 1s forwards;
 }
 
 /*   detective  */
@@ -443,6 +458,10 @@ footer button {
   color: #ff8f12;
   background: #444;
   height: 30px;
+}
+
+.ranpo {
+  height: 100px;
 }
 
 .mention-container {
