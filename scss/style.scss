@@ -316,7 +316,7 @@ header ul li :hover {
   width: 100vh;
   margin: auto;
   padding: 200px 0;
-  grid-template-columns: 500px auto auto auto;
+  grid-template-columns: 500px 50px auto auto;
   grid-template-rows: repeat(7, 1fr);
   grid-template-areas:
     ". . form1 input1"
@@ -343,7 +343,7 @@ header ul li :hover {
 }
 
 .ajout-content label {
-  padding: 20px 20px;
+  padding: 20px 0px;
 }
 
 .ajout-content .form1 {
