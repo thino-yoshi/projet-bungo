@@ -314,18 +314,19 @@ header ul li :hover {
 .ajout-content {
   display: grid;
   width: 100vh;
-  margin: auto;
+  margin: auto auto auto auto;
+
   padding: 200px 0;
-  grid-template-columns: 500px 50px auto auto;
+  grid-template-columns: 500px 200px auto;
   grid-template-rows: repeat(7, 1fr);
   grid-template-areas:
-    ". . form1 input1"
-    "img . form2 input2"
-    "img . form3 input3"
-    "img . form4 input4"
-    "img . form5 input5"
-    ". . form6 input6"
-    ". . . button";
+    ". form1 input1"
+    "img form2 input2"
+    "img form3 input3"
+    "img form4 input4"
+    "img form5 input5"
+    ". form6 input6"
+    ".  . button";
 }
 
 .ajout-content img:nth-child(1) {
@@ -344,6 +345,7 @@ header ul li :hover {
 
 .ajout-content label {
   padding: 20px 0px;
+  margin: 0;
 }
 
 .ajout-content .form1 {
