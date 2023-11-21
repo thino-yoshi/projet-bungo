@@ -1,11 +1,27 @@
-/*      ajuster dans ajout de personnage 
-        l'espace entre la photo et les info 
-        sur tablette                         */
 .ajout-content {
-  grid-template-columns: 300px 200px 200px;
-  grid-template-rows: repeat(7, 1fr);
-  grid-template-areas: ". form1 input1" "img form2 input2" "img form3 input3" "img form4 input4" "img form5 input5" ". form6 input6" ". . button";
-  margin: 0 20px 0 20px;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ajout-content img:nth-child(1) {
+  height: 250px;
+  width: 250px;
+  background-color: #eee;
+  border: 10px solid black;
+  margin-bottom: 2rem;
+}
+
+.ajout-content div {
+  width: 300px;
+  text-align: center;
+  padding: 0.4rem;
+}
+
+.button {
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style-tablet.css.map */
