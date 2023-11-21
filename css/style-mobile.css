@@ -156,7 +156,9 @@ header ul li {
 
 /*     footer     */
 footer {
-  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  visibility: hidden;
 }
 footer button {
   padding: 0;
@@ -167,14 +169,15 @@ footer button {
 }
 
 .footer-m {
+  visibility: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
   color: #ff8f12;
   background: black;
   height: 100px;
-  text-align: center;
+  position: absolute;
+  bottom: 0;
   font-size: 20px;
 }
 .footer-m button {
