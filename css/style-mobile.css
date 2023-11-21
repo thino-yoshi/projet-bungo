@@ -9,6 +9,38 @@ header {
   height: 30%;
 }
 
+.header-main {
+  width: auto;
+  flex-direction: column;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  height: 30%;
+}
+
+.organisation-p {
+  text-align: center;
+  color: #ff8f12;
+  padding-left: 0rem;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.organisation-p-m {
+  text-align: center;
+  color: #ff8f12;
+  padding-left: 0rem;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.organisation-p-g {
+  text-align: center;
+  color: #ff8f12;
+  padding-left: 0rem;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
 header h2 a {
   padding: 0;
 }
@@ -123,10 +155,32 @@ header ul li {
 }
 
 /*     footer     */
+footer {
+  justify-content: center;
+}
 footer button {
+  padding: 0;
+  margin: 0;
   color: #ff8f12;
   background: #444;
   height: 50px;
+}
+
+.footer-m {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background: black;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+.footer-m button {
+  color: #ff8f12;
+  background: #444;
+  height: 30px;
 }
 
 .title-mention {
